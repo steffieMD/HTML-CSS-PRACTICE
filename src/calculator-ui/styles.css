@@ -48,6 +48,7 @@ h2 {
 
 .icons p {
   font-size: small;
+  color: #fffefe;
 }
 
 .icons {
@@ -124,4 +125,12 @@ h2 {
   border-top: none;
   border-left: none;
   border-right: none;
+}
+
+.green {
+  color: #26b9a1;
+}
+
+.red {
+  color: #ed7475;
 }
