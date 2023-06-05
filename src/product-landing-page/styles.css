@@ -3,10 +3,11 @@
 }
 
 body {
-  width: 100%;
-}
-body {
-  background-color: #ffffff;
+  width: 900px;
+  max-width: 900px;
+  /* border: 1px solid red; */
+  margin-left: 300px;
+  background-color: burlywood;
 }
 
 header {
@@ -17,8 +18,8 @@ header {
   position: sticky;
   top: 0px;
   z-index: 4;
-  background-color: #ffffff;
-  color: #ffffff;
+  background-color: rgb(218, 179, 127);
+  color: burlywood;
   backdrop-filter: blur(10px);
 }
 #header-img {
@@ -32,7 +33,7 @@ header {
 .nav-link {
   text-decoration: none;
   padding-right: 15px;
-  color: rgb(118, 89, 50);
+  color: rgb(96, 69, 35);
 }
 
 .nav-link:hover {
@@ -70,6 +71,11 @@ input#submit {
   border-radius: 10px;
 }
 
+#all-locations {
+  /* border: 1px solid red; */
+  display: flex;
+}
+
 div.location {
   margin: 0 auto;
   border: none;
@@ -94,16 +100,18 @@ p {
   font-size: 40px;
 }
 
-iframe {
-  margin-top: 30px;
-  margin-left: 33%;
-  margin-right: 33%;
+.video {
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .cookie-lover {
   text-align: center;
   margin-top: 60px;
-  border: 2px solid burlywood;
+  border: 2px solid pink;
+  background-color: ghostwhite;
   border-radius: 50%;
 }
 .cookie-lover img {
@@ -111,9 +119,10 @@ iframe {
 }
 
 #price-list {
-  border: none;
+  margin-top: 30px;
   height: 600px;
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 #price-list img {
   width: 60%;
@@ -125,11 +134,12 @@ iframe {
 }
 
 footer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100px;
   width: 100%;
   margin-top: 40px;
   display: block;
+  background-color: rgb(218, 179, 127);
 }
 footer li {
   list-style-type: none;
@@ -159,6 +169,6 @@ footer a:hover {
 
 @media (max-width: 600px) {
   body {
-    background-color: burlywood;
+    background-color: rgb(218, 179, 127);
   }
 }
