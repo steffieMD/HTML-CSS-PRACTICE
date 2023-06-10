@@ -3,11 +3,13 @@
 }
 
 body {
-  width: 900px;
-  max-width: 900px;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
   /* border: 1px solid red; */
-  margin-left: 300px;
-  background-color: burlywood;
+  /* margin-left: 300px; */
+  margin: 0;
+  background-color: #fefffe;
 }
 
 header {
@@ -101,7 +103,7 @@ p {
 }
 
 .video {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -110,8 +112,8 @@ p {
 .cookie-lover {
   text-align: center;
   margin-top: 60px;
-  border: 2px solid pink;
-  background-color: ghostwhite;
+  /* border: 2px solid pink; */
+  background-color: #fefffe;
   border-radius: 50%;
 }
 .cookie-lover img {
