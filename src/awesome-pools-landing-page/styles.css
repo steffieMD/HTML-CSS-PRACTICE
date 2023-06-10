@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -20,6 +22,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 #company-logo {
@@ -35,7 +38,7 @@ header {
 
 #info {
   display: flex;
-  margin-right: 40px;
+  margin-right: 80px;
 }
 
 #info img {
@@ -87,11 +90,48 @@ nav a {
 }
 
 #call-button {
-  margin-right: 40px;
+  margin-right: 80px;
   margin-top: 4px;
   height: 30px;
   border-radius: 15px;
   background-color: #f98315;
   color: #ffffff;
   border: 1px solid #f98315;
+}
+
+main {
+  height: auto;
+  width: 80%;
+  border: 1px solid rebeccapurple;
+  margin: 0 auto;
+}
+
+section h1 {
+  font-size: 42px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
+
+section p.second-line {
+  font-size: 40px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+section img {
+  width: 50px;
+}
+
+section .pool-circle {
+  /* position: relative;
+  top: 20px; */
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 8px;
 }
