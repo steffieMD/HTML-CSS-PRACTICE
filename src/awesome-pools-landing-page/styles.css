@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: auto;
   height: 80px;
   border: 1px solid green;
 }
@@ -17,5 +17,47 @@ header {
 #contact-info {
   background-color: black;
   height: 40px;
-  width: 1005;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#company-logo {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 0;
+}
+
+#company-name-header {
+  margin-top: 6px;
+  margin-left: 4px;
+}
+
+#info {
+  display: flex;
+  margin-right: 40px;
+}
+
+#info img {
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#company-name-header h2 {
+  color: #f98315;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+#company-name-header p {
+  color: #d3bcbc;
+  font-size: 10px;
+  padding-top: -10;
+  margin: 0px;
+  padding: 0px;
+}
+
+#company-logo {
+  /* border: 1px solid red; */
+  width: 15%;
 }
