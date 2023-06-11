@@ -222,3 +222,68 @@ button.service {
   font-size: medium;
   width: 200px;
 }
+
+#personal-touch {
+  border: 1px solid gold;
+  margin-top: 100px;
+  display: flex;
+  height: 450px;
+  width: 100%;
+}
+
+#personal-touch-img {
+  border: 1px solid blue;
+  height: 450px;
+  width: 50%;
+  display: flex;
+}
+
+#personal-touch-img .img-1 {
+  width: 500px;
+}
+
+#personal-touch-img .img-2 {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  right: 80px;
+  top: 40px;
+}
+
+#personal-touch-write-up {
+  border: 1px solid rebeccapurple;
+  height: 450px;
+  width: 50%;
+}
+
+#personal-touch-write-up button {
+  border-radius: 25px;
+  border: 1px solid #f98315;
+  background-color: #f98315;
+  color: #ffffff;
+  /* margin-top: 53px; */
+  width: 150px;
+  height: 40px;
+  padding: 0;
+  margin-top: 4git 8px;
+}
+
+#personal-touch-write-up p.first-p {
+  font-size: 20px;
+  color: #f98315;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#personal-touch-write-up h2 {
+  font-size: 50px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#personal-touch-write-up p.second-p {
+  font-size: 20px;
+  color: black;
+  margin-top: 30px;
+  font-weight: 100;
+}
