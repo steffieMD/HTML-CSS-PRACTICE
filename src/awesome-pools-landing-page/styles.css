@@ -342,3 +342,27 @@ button.service {
   bottom: 120px;
   width: 100%;
 }
+
+#another-arrow {
+  position: relative;
+  left: 1060px;
+  bottom: 200px;
+  width: 60px;
+}
+
+#clients {
+  border: 1px solid rebeccapurple;
+  width: 70%;
+  margin-bottom: 100px;
+}
+
+#clients h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+#clients p {
+  margin: 0;
+  padding: 0;
+}
