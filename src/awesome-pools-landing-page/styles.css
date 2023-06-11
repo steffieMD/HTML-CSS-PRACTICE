@@ -111,7 +111,7 @@ section {
 }
 
 section h1 {
-  font-size: 80px;
+  font-size: 55px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -120,7 +120,7 @@ section h1 {
 }
 
 section p.second-line {
-  font-size: 70px;
+  font-size: 35px;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -130,7 +130,7 @@ section p.second-line {
 }
 
 section img {
-  width: 60px;
+  width: 40px;
 }
 
 section .pool-circle {
@@ -146,6 +146,7 @@ section .pool-circle {
   margin-top: 30px;
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 #beach-img img {
@@ -227,19 +228,19 @@ button.service {
   border: 1px solid gold;
   margin-top: 100px;
   display: flex;
-  height: 450px;
+  height: 350px;
   width: 100%;
 }
 
 #personal-touch-img {
   border: 1px solid blue;
-  height: 450px;
+  height: 350px;
   width: 50%;
   display: flex;
 }
 
 #personal-touch-img .img-1 {
-  width: 500px;
+  width: 90%;
 }
 
 #personal-touch-img .img-2 {
@@ -252,7 +253,7 @@ button.service {
 
 #personal-touch-write-up {
   border: 1px solid rebeccapurple;
-  height: 450px;
+  height: 350px;
   width: 50%;
 }
 
@@ -336,24 +337,32 @@ button.service {
   /* width: 230px; */
 }
 
+#pools-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 #building-pool {
-  height: 450px;
-  position: relative;
-  bottom: 120px;
   width: 100%;
+  position: relative;
+  bottom: 150px;
 }
 
 #another-arrow {
+  width: 70px;
   position: relative;
-  left: 1060px;
-  bottom: 200px;
-  width: 60px;
+  bottom: 230px;
+  right: 20px;
 }
 
 #clients {
   border: 1px solid rebeccapurple;
   width: 70%;
   margin-bottom: 100px;
+  position: relative;
+  bottom: 120px;
 }
 
 #clients h1 {
@@ -365,4 +374,22 @@ button.service {
 #clients p {
   margin: 0;
   padding: 0;
+}
+
+#testimonials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border: 1px solid greenyellow;
+  height: 300px;
+  position: relative;
+  bottom: 180px;
+}
+
+#testimonials img {
+  width: 45%;
+}
+
+.testimonial-two {
+  height: 250px;
 }
