@@ -269,20 +269,20 @@ button.service {
 }
 
 #personal-touch-write-up p.first-p {
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #f98315;
   margin: 0;
   margin-bottom: 20px;
 }
 
 #personal-touch-write-up h2 {
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   text-transform: uppercase;
 }
 
 #personal-touch-write-up p.second-p {
-  font-size: 20px;
+  /* font-size: 20px; */
   color: black;
   margin-top: 30px;
   font-weight: 100;
@@ -314,7 +314,7 @@ button.service {
 }
 
 #choose-us h1 {
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   margin-bottom: 8px;
 }
@@ -322,4 +322,23 @@ button.service {
 #choose-us p {
   margin: 0;
   padding: 0;
+}
+
+#numbers-pool {
+  width: 50%;
+  display: flex;
+  height: 150px;
+  border: 1px solid saddlebrown;
+}
+
+#numbers-pool h1 {
+  font-size: 40px;
+  /* width: 230px; */
+}
+
+#building-pool {
+  height: 450px;
+  position: relative;
+  bottom: 120px;
+  width: 100%;
 }
