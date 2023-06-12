@@ -653,3 +653,8 @@ img.facebook {
 #first-ul {
   padding: 0;
 }
+
+button:hover {
+  background-color: #3980c2;
+  color: #d7d2cb;
+}
