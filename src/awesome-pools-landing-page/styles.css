@@ -241,6 +241,13 @@ button.service {
   justify-content: space-between;
 }
 
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover {
+  color: #955535;
+}
+
 #select-list {
   /* border: 1px solid greenyellow; */
   font-size: medium;
@@ -601,6 +608,7 @@ footer {
 #footer-write-up p {
   color: #f7f7f7;
   font-size: 12px;
+  padding-bottom: 30px;
 }
 
 #footer-logo img {
@@ -637,6 +645,10 @@ img.facebook {
   color: #f7f7f7;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+#footer-list li:hover {
+  color: #d3bcbc;
 }
 
 #sign-up {
