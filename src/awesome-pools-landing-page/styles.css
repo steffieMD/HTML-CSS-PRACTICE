@@ -102,6 +102,10 @@ nav a {
   font-size: small;
 }
 
+nav a:hover {
+  color: #955535;
+}
+
 #call-button {
   /* margin-right: 80px; */
   margin-top: 10px;
@@ -110,6 +114,11 @@ nav a {
   background-color: #f98315;
   color: #ffffff;
   border: 1px solid #f98315;
+}
+
+#call-button:hover {
+  background-color: #ffffff;
+  color: #f98315;
 }
 
 main {
@@ -283,6 +292,11 @@ button.service {
   margin-top: 4git 8px;
 }
 
+#personal-touch-write-up button:hover {
+  background-color: #ffffff;
+  color: #f98315;
+}
+
 #personal-touch-write-up p.first-p {
   /* font-size: 20px; */
   color: #f98315;
@@ -326,6 +340,11 @@ button.service {
   height: 40px;
   padding: 0;
   margin-top: 50px;
+}
+
+#why-us button:hover {
+  background-color: #f98315;
+  color: #ffffff;
 }
 
 #choose-us h1 {
@@ -484,15 +503,30 @@ button.big-button {
   width: 100px;
 }
 
+#premium .small-button:hover {
+  color: #ffffff;
+  background-color: #50af9b;
+}
+
 #premium .big-button {
   background-color: #f98315;
   color: #ffffff;
+}
+
+#premium .big-button:hover {
+  background-color: #ffffff;
+  color: #f98315;
 }
 
 #pro .small-button {
   color: #3980c2;
   border: 1px solid #3980c2;
   width: 55px;
+}
+
+#pro .small-button:hover {
+  background-color: #3980c2;
+  color: #ffffff;
 }
 
 .price h2 {
@@ -641,6 +675,11 @@ img.facebook {
   color: #ffffff;
 }
 
+#sign-up button:hover {
+  background-color: #ffffff;
+  color: #f98315;
+}
+
 #sign-up p {
   font-size: 9px;
   color: #91979f;
@@ -655,6 +694,6 @@ img.facebook {
 }
 
 button:hover {
-  background-color: #3980c2;
-  color: #d7d2cb;
+  background-color: #f98315;
+  color: #ffffff;
 }
