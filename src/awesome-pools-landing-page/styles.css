@@ -659,10 +659,12 @@ img.facebook {
   border-radius: 15px;
   width: 100%;
   height: 30px;
+  color: #ffffff;
 }
 
 #email {
   line-height: 50px;
+  padding-left: 15px;
 }
 
 #sign-up button {
