@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/inteltelinput.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
   </head>
   <body>
     <header>
@@ -251,6 +260,77 @@
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div id="footer">
+        <div id="footer-gist">
+          <div id="footer-logo">
+            <img src="materials/Frame 1000007081.png" alt="Company logo" />
+          </div>
+          <div id="footer-write-up">
+            <p>
+              Among friends and fellow skiers we founded <br />
+              this brand. Our <br />
+              commitment to progression formed the
+            </p>
+          </div>
+          <div id="social-media">
+            <img
+              src="materials/instagram-orange.svg.png"
+              alt="instagram logo"
+            />
+            <img src="materials/youtube-orange.svg.png" alt="youtube logo" />
+            <img
+              class="facebook"
+              src="materials/facebook-orange.svg.png"
+              alt="facebook logo"
+            />
+          </div>
+        </div>
+        <div id="footer-list">
+          <ul>
+            <li>Services</li>
+            <li>GUARANTEE</li>
+            <li>PROMOTIONS</li>
+            <li>RETURNS</li>
+          </ul>
+          <ul>
+            <li>CONTACT US</li>
+            <li>DEALERS/DEMOS</li>
+            <li>PRIVACY</li>
+            <li>TERMS</li>
+          </ul>
+        </div>
+        <div id="sign-up">
+          <h2>STAY IN THE KNOW</h2>
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <input type="tel" name="hone" id="phone" placeholder="Phone #" />
+          <button>SIGN UP</button>
+          <p>
+            By submitting this form, you agree to receive marketing text
+            messages from us at <br />
+            the number provided, including messages sent by autodialer. Consent
+            is not a <br />
+            condition of purchase. Message and data rates may apply. Message
+            frequency <br />
+            varies. Reply HELP for help or STOP to cancel. View our
+            <a href="#">Privacy Policy</a> and
+            <a href="#">Terms of Service</a>
+            .
+          </p>
+        </div>
+      </div>
+      <div id="copyrights">
+        <p>© 2022 4FRNT Skis, Inc.</p>
+        <p>Privacy</p>
+        <p>Terms</p>
+      </div>
+    </footer>
   </body>
+  <script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
 </html>

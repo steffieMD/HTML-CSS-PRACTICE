@@ -497,6 +497,137 @@ li.grey-list {
 footer {
   width: 100%;
   border: 1px solid black;
-  height: 400px;
+  height: 450px;
   background-color: #151515;
+}
+
+#footer {
+  border: 1px solid lightcoral;
+  width: 60%;
+  height: 55%;
+  margin: 0 auto;
+  margin-top: 95px;
+  display: flex;
+}
+
+#footer-gist,
+#footer-list,
+#sign-up {
+  flex-basis: 33.3%;
+  border: 1px solid blanchedalmond;
+  height: 100%;
+}
+
+#copyrights {
+  border: 1px solid green;
+  width: 250px;
+  height: 30px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#copyrights p {
+  color: #d7d2cb;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#footer-gist {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-logo,
+#footer-write-up,
+#social-media {
+  flex-basis: 33.3%;
+  border: 1px solid blue;
+  height: 100%;
+}
+
+#footer-write-up p {
+  color: #f7f7f7;
+  font-size: 14px;
+}
+
+#footer-logo img {
+  width: 175px;
+  height: 35px;
+}
+
+#social-media img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+img.facebook {
+  height: 30px;
+  width: 15px;
+}
+
+#footer-list {
+  display: flex;
+}
+
+#footer-list ul {
+  border: 1px solid royalblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  margin: 0 auto;
+}
+
+#footer-list li {
+  list-style: none;
+  color: #f7f7f7;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#sign-up h2 {
+  color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+#sign-up input {
+  background-color: #151515;
+  border: 1px solid #91979f;
+  border-radius: 15px;
+  width: 100%;
+  height: 30px;
+}
+
+#email {
+  line-height: 50px;
+}
+
+#sign-up button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: #f98315;
+  border: 1px solid #f98315;
+  color: #ffffff;
+}
+
+#sign-up p {
+  font-size: 9px;
+  color: #91979f;
+}
+
+#sign-up a {
+  color: #91979f;
 }
