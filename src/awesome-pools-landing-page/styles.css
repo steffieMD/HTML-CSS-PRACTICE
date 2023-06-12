@@ -201,6 +201,7 @@ button.service {
   /* border: 1px solid salmon; */
   margin-left: 16%;
   /* justify-content: space-evenly; */
+  overflow: scroll;
 }
 
 #scroll img {
@@ -457,8 +458,8 @@ button.big-button {
 }
 
 #premium {
-  /* border: 1px solid #595858; */
-  box-shadow: 0 1px 1px 1px #595858;
+  border: 1px solid #eae6e6;
+  border-bottom: 1px solid #f98315;
 }
 
 #premium .small-button {
