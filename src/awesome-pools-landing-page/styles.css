@@ -59,7 +59,7 @@ header {
 .header-info img {
   width: 30px;
   height: 30px;
-  padding-right: 3px;
+  padding-right: 10px;
   margin-top: 5px;
 }
 
@@ -191,12 +191,10 @@ section p.second-line {
 }
 
 section img {
-  width: 40px;
+  width: 60px;
 }
 
 section .pool-circle {
-  /* position: relative;
-  top: 20px; */
   margin: 0;
   padding: 0;
   position: relative;
