@@ -163,7 +163,6 @@ nav a:hover {
 main {
   height: auto;
   width: 80%;
-  /* border: 1px solid rebeccapurple; */
   margin: 0 auto;
 }
 
@@ -226,17 +225,18 @@ section .pool-circle {
   margin-right: 10px;
 }
 
-.one,
-.two,
-.three,
-.four {
+#select-list ul {
   display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  margin: 0;
+  flex-direction: column;
+}
+
+#select-list a {
+  text-underline-offset: 20px;
+  color: #000000;
+}
+
+#select-list a:nth-of-type(3) {
+  color: #f98315;
 }
 
 button.service {
