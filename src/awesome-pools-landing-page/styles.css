@@ -155,6 +155,7 @@ nav a:hover,
 #call-button:hover {
   background-color: #ffffff;
   color: #f98315;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 main {
@@ -356,6 +357,7 @@ button.service {
 #personal-touch-write-up button:hover {
   background-color: #ffffff;
   color: #f98315;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #personal-touch-write-up p.first-p {
@@ -406,6 +408,7 @@ button.service {
 .small-button:hover {
   background-color: #f98315;
   color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #choose-us h1 {
@@ -638,7 +641,14 @@ p {
   border-bottom: 1px solid #f98315;
 }
 
-#premium .small-button {
+#premium:hover {
+  background-color: #f98315;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-right: none;
+}
+
+.small-button {
   color: #50af9b;
   border: 1px solid #50af9b;
   width: 100px;
@@ -647,11 +657,6 @@ p {
 #premium .small-button:hover {
   color: #ffffff;
   background-color: #50af9b;
-}
-
-#premium .big-button {
-  background-color: #f98315;
-  color: #ffffff;
 }
 
 #premium .big-button:hover {
@@ -789,6 +794,12 @@ input {
   margin-top: 10px;
   border: 1px solid #f98315;
   position: relative;
+}
+
+#sign-up button:hover {
+  background-color: #ffffff;
+  color: #f98315;
+  box-shadow: 0 4px 8px 0 rgba(33, 30, 30, 0.2);
 }
 
 #sign-up p {
