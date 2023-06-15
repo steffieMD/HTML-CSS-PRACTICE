@@ -129,8 +129,10 @@ nav a {
   font-size: 16px;
 }
 
-nav a:hover {
-  color: #955535;
+nav a:hover,
+#footer-list a:hover,
+#select-list a:hover {
+  color: #f98315;
 }
 
 #bold a {
@@ -300,15 +302,14 @@ button.service {
   display: flex;
   position: absolute;
   z-index: 1;
-  top: 280px;
-  left: 15px;
+  top: 270px;
+  left: 20px;
 }
 
 .white {
   width: 25px;
   position: relative;
   left: 110px;
-  bottom: 12px;
 }
 
 #personal-touch {
@@ -399,7 +400,10 @@ button.service {
   margin-top: 50px;
 }
 
-#why-us button:hover {
+#why-us button:hover,
+.service:hover,
+.big-button:hover,
+.small-button:hover {
   background-color: #f98315;
   color: #ffffff;
 }
@@ -496,7 +500,6 @@ button.service {
 .text-profile {
   width: 80%;
   height: 250px;
-  /* display: flex; */
 }
 
 .text {
@@ -764,25 +767,28 @@ footer {
   color: #f7f7f7;
   font-size: 20px;
   margin: 0;
+  margin-bottom: 15px;
 }
 
 input {
-  width: 80%;
+  width: 300px;
   background-color: #151515;
   border: 1px solid #656565;
   height: 25px;
   border-radius: 15px;
-  margin-top: 10px;
+  margin-bottom: 15px;
   padding-left: 10px;
+  color: #d7d2cb;
 }
 
 #sign-up button {
   background-color: #f98315;
   width: 35%;
   height: 35px;
-  border-radius: 15px;
+  border-radius: 20px;
   margin-top: 10px;
   border: 1px solid #f98315;
+  position: relative;
 }
 
 #sign-up p {
@@ -796,4 +802,12 @@ input {
 #sign-up a {
   text-decoration: underline;
   color: #91979f;
+}
+
+#iti-0__country-listbox {
+  flex-direction: column;
+}
+
+#phone {
+  width: 300px;
 }
