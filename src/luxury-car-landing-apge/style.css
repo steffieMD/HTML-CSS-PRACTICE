@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600&family=Roboto:wght@700&display=swap");
+
 :root {
   --red: #fe051e;
   --white: #ffffff;
@@ -33,7 +32,7 @@ header {
 .company-logo {
   display: flex;
 }
-.company-logo h2 {
+.company-logo p {
   color: var(--white);
   font-family: Poppins;
   font-size: 36px;
@@ -43,11 +42,11 @@ header {
   text-align: left;
 }
 
-h2.the-dot {
+p.red-text {
   color: var(--red);
 }
 
-h2 {
+header p {
   text-transform: capitalize;
 }
 
@@ -102,7 +101,7 @@ a.lines {
   top: 184px;
 }
 
-.free-shipping h2 {
+.shipping-header h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -110,6 +109,7 @@ a.lines {
   line-height: 75px;
   padding-right: 15px;
   color: var(--white);
+  text-transform: capitalize;
 }
 
 h2.red-text {
@@ -162,7 +162,7 @@ h2.red-text {
   display: flex;
 }
 
-h2.number-one {
+p.number-one {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -171,7 +171,7 @@ h2.number-one {
   color: var(--white);
 }
 
-h2.over-five {
+p.over-five {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
