@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600&family=Roboto:wght@700&display=swap");
 :root {
   --red: #fe051e;
   --white: #ffffff;
@@ -13,14 +14,12 @@
 }
 
 body {
-  border: 1px solid red;
-  height: 100vh;
   width: 100vw;
   background-color: #1e1e1e;
+  overflow-x: hidden;
 }
 
 header {
-  border: 1px solid rgb(214, 250, 114);
   width: 100%;
   height: 100px;
   display: flex;
@@ -48,8 +47,8 @@ h2.the-dot {
   color: var(--red);
 }
 
-.nav-bar {
-  border: 1px solid forestgreen;
+h2 {
+  text-transform: capitalize;
 }
 
 .nav-bar a {
@@ -65,4 +64,148 @@ h2.the-dot {
 
 a.lines {
   font-size: 40px;
+}
+
+.luxury-car-display {
+  height: 338px;
+  width: 1440px;
+}
+
+.luxury-car-display h1 {
+  text-transform: uppercase;
+  color: #6d6b6b21;
+  position: absolute;
+  width: 1424px;
+  height: 338px;
+  left: 8px;
+  top: 190px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 288px;
+  line-height: 338px;
+}
+
+.luxury-car-display img {
+  position: absolute;
+  width: 822px;
+  height: 398px;
+  left: 721px;
+  top: 186px;
+}
+
+.free-shipping {
+  position: absolute;
+  width: 453px;
+  height: 341px;
+  left: 150px;
+  top: 184px;
+}
+
+.free-shipping h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  padding-right: 15px;
+  color: var(--white);
+}
+
+h2.red-text {
+  color: var(--red);
+}
+
+.free-shipping h3 {
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #acacac;
+  padding-top: 10px;
+}
+
+.free-shipping p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #a7a4a4;
+  padding-top: 25px;
+}
+
+.free-shipping button {
+  width: 192px;
+  height: 56px;
+  background: var(--red);
+  border: 1px solid var(--red);
+  color: var(--white);
+  margin-top: 35px;
+}
+
+.page-number-design {
+  position: absolute;
+  width: 28px;
+  height: 163px;
+  left: 68px;
+  top: 273px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-number {
+  display: flex;
+}
+
+h2.number-one {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--white);
+}
+
+h2.over-five {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #999999;
+}
+
+.shipping-header {
+  display: flex;
+}
+
+.straight-line {
+  width: 2px;
+  height: 93px;
+  left: 81px;
+  top: 307px;
+  background: #464445;
+}
+
+.outer-circle {
+  width: 28px;
+  height: 28px;
+  left: 68px;
+  border: 1px solid #5f5d5e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle {
+  width: 6px;
+  height: 6px;
+  background: #5f5d5e;
+  border-radius: 50%;
 }
