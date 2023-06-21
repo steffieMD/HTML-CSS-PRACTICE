@@ -91,6 +91,7 @@ a.lines {
   height: 398px;
   left: 721px;
   top: 186px;
+  z-index: 100;
 }
 
 .free-shipping {
@@ -208,4 +209,91 @@ p.over-five {
   height: 6px;
   background: #5f5d5e;
   border-radius: 50%;
+}
+
+.grey-backlight {
+  position: absolute;
+  width: 644.68px;
+  height: 182.6px;
+  left: 697.98px;
+  top: 461.15px;
+  background: #ffffff;
+  filter: blur(150px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.car-stats-and-video {
+  display: flex;
+}
+
+.car-stats {
+  position: relative;
+  width: 109px;
+  height: 67px;
+  left: 708px;
+  top: 286px;
+}
+
+p.top-car-stats {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: var(--white);
+}
+
+p.bottom-car-stats {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+}
+
+.car-stats-img {
+  position: absolute;
+  width: 247px;
+  height: 152px;
+  left: 1193px;
+  top: 659px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51));
+}
+
+.short-straight-line {
+  position: relative;
+  width: 38px;
+  height: 0px;
+  left: 705px;
+  top: 320px;
+  border: 1px solid #565656;
+  transform: rotate(90deg);
+}
+
+.play-symbol-outer-circle {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 1290px;
+  top: 708px;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 5, 30, 0.63) 0%,
+    rgba(254, 5, 30, 0.63) 100%
+  );
+  backdrop-filter: blur(0.5px);
+  border-radius: 50%;
+}
+
+.play-symbol-inner-triangle {
+  position: absolute;
+  left: 38.33%;
+  top: 30%;
+  width: 0;
+  height: 0;
+  border-left: 2vh solid #ffffff;
+  border-top: 1vh solid transparent;
+  border-bottom: 1vh solid transparent;
+  border-right: 1vh solid transparent;
 }
