@@ -5,6 +5,7 @@
   --white: #ffffff;
   --black: #000000;
   --social-media-background: #0f1624;
+  --body-bg: #1e1e1e;
 }
 
 * {
@@ -16,7 +17,7 @@
 
 body {
   width: 100vw;
-  background-color: #1e1e1e;
+  background-color: var(--body-bg);
   overflow-x: hidden;
 }
 
