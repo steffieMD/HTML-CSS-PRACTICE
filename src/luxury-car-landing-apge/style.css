@@ -283,18 +283,23 @@ p.bottom-car-stats {
   );
   backdrop-filter: blur(0.5px);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.play-symbol-inner-triangle {
-  position: absolute;
-  left: 38.33%;
-  top: 30%;
-  width: 0;
-  height: 0;
-  border-left: 2vh solid #ffffff;
-  border-top: 1vh solid transparent;
-  border-bottom: 1vh solid transparent;
-  border-right: 1vh solid transparent;
+.play-symbol-outer-circle:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(73, 68, 68, 0.63) 0%,
+    rgba(72, 69, 69, 0.63) 100%
+  );
+}
+
+.play-symbol-outer-circle img {
+  position: relative;
+  width: 12px;
+  height: 15px;
 }
 
 .about-car-dealer {
@@ -574,8 +579,16 @@ p.car-photo-info-header {
   align-items: center;
 }
 
+.right-arrow:hover {
+  background: var(--white);
+}
+
 .right-arrow p {
   color: var(--white);
+}
+
+.right-arrow p:hover {
+  color: var(--red);
 }
 
 .trending-products {
@@ -615,6 +628,13 @@ p.car-photo-info-header {
   font-size: 18px;
 }
 
+.left-arrow-button:hover {
+  color: var(--black);
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  box-shadow: 1px 1px 5px var(--social-media-background);
+}
+
 .right-arrow-button {
   width: 40px;
   height: 40px;
@@ -623,6 +643,13 @@ p.car-photo-info-header {
   border-radius: 50%;
   border: 1px solid var(--black);
   font-size: 18px;
+}
+
+.right-arrow-button:hover {
+  color: var(--white);
+  background-color: #2b2b2b;
+  border: 1px solid var(--black);
+  box-shadow: 1px 1px 5px var(--social-media-background);
 }
 
 .products-grid {
@@ -960,4 +987,25 @@ p.copyright {
   line-height: 16px;
   color: var(--white);
   text-transform: capitalize;
+}
+
+button:hover {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--red);
+  box-shadow: 5px 5px 5px var(--black);
+}
+
+a:hover {
+  color: var(--red);
+}
+
+#sign-up-button:hover {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--red);
+  box-shadow: 5px 5px 5px var(--social-media-background);
+}
+
+.left-arrow-button:hover {
 }
