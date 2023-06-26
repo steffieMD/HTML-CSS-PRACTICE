@@ -6,6 +6,11 @@
   --black: #000000;
   --social-media-background: #0f1624;
   --body-bg: #1e1e1e;
+  --bg-text-color: #6d6b6b21;
+  --light-grey: #acacac;
+  --dark-grey: #464445;
+  --lighter-grey: rgba(196, 196, 196, 0.5);
+  --grey: #676767;
 }
 
 * {
@@ -75,7 +80,7 @@ a.lines {
 
 .background-text {
   text-transform: uppercase;
-  color: #6d6b6b21;
+  color: var(--bg-text-color);
   position: absolute;
   width: 1424px;
   height: 338px;
@@ -127,7 +132,7 @@ h2.red-text {
   font-weight: 500;
   font-size: 36px;
   line-height: 42px;
-  color: #acacac;
+  color: var(--light-grey);
   padding-top: 10px;
 }
 
@@ -136,7 +141,7 @@ h2.red-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  color: #a7a4a4;
+  color: var(--light-grey);
   padding-top: 25px;
 }
 
@@ -179,7 +184,7 @@ p.over-five {
   font-weight: 400;
   font-size: 12px;
   line-height: 22px;
-  color: #999999;
+  color: var(--light-grey);
 }
 
 .shipping-header {
@@ -191,14 +196,14 @@ p.over-five {
   height: 93px;
   left: 81px;
   top: 307px;
-  background: #464445;
+  background: var(--dark-grey);
 }
 
 .outer-circle {
   width: 28px;
   height: 28px;
   left: 68px;
-  border: 1px solid #5f5d5e;
+  border: 1px solid var(--dark-grey);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -208,7 +213,7 @@ p.over-five {
 .inner-circle {
   width: 6px;
   height: 6px;
-  background: #5f5d5e;
+  background: var(--dark-grey);
   border-radius: 50%;
 }
 
@@ -218,7 +223,7 @@ p.over-five {
   height: 182.6px;
   left: 697.98px;
   top: 461.15px;
-  background: #ffffff;
+  background: var(--white);
   filter: blur(150px);
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
@@ -249,7 +254,7 @@ p.bottom-car-stats {
   font-weight: 600;
   font-size: 14px;
   line-height: 22px;
-  color: #999999;
+  color: var(--light-grey);
 }
 
 .car-stats-img {
@@ -267,7 +272,7 @@ p.bottom-car-stats {
   height: 0px;
   left: 705px;
   top: 320px;
-  border: 1px solid #565656;
+  border: 1px solid var(--light-grey);
   transform: rotate(90deg);
 }
 
@@ -335,7 +340,7 @@ img.car-dealer-photo {
   font-weight: 600;
   font-size: 48px;
   line-height: 56px;
-  color: #2b2b2b;
+  color: var(--dark-grey);
 }
 
 p.lorem {
@@ -348,7 +353,7 @@ p.lorem {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  color: #7e7e7e;
+  color: var(--light-grey);
 }
 
 p.two {
@@ -377,7 +382,7 @@ p.two {
   position: relative;
   width: 50px;
   height: 50px;
-  background: rgba(196, 196, 196, 0.5);
+  background: var(--lighter-grey);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -403,7 +408,7 @@ p.service-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  color: #2b2b2b;
+  color: var(--dark-grey);
   text-align: left;
 }
 
@@ -412,7 +417,7 @@ p.service-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #979797;
+  color: var(--light-grey);
 }
 
 .third-service {
@@ -493,7 +498,7 @@ p.service-text {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  color: #929292;
+  color: var(--light-grey);
   text-transform: capitalize;
   text-decoration: none;
   padding: 20px 0 20px 0;
@@ -510,7 +515,7 @@ a.highlighted-car-name {
   width: 3px;
   height: 523px;
   left: 60px;
-  background: rgba(196, 186, 187, 0.2);
+  background: var(--dark-grey);
 }
 
 .red-straight-line {
@@ -534,11 +539,11 @@ a.highlighted-car-name {
 }
 
 .car-info {
-  background: #111111;
+  background: var(--black);
   position: relative;
   width: 877px;
   height: 132px;
-  color: #676767;
+  color: var(--light-grey);
   bottom: 10px;
 }
 
@@ -562,7 +567,7 @@ p.car-photo-info-header {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: #676767;
+  color: var(--grey);
   padding: 15px;
   padding-left: 30px;
 }
@@ -615,7 +620,7 @@ p.car-photo-info-header {
   font-weight: 600;
   font-size: 48px;
   line-height: 56px;
-  color: #2b2b2b;
+  color: var(--dark-grey);
   padding-top: 70px;
 }
 
@@ -639,7 +644,7 @@ p.car-photo-info-header {
 .right-arrow-button {
   width: 40px;
   height: 40px;
-  background: #2b2b2b;
+  background: var(--dark-grey);
   color: var(--white);
   border-radius: 50%;
   border: 1px solid var(--black);
@@ -648,7 +653,7 @@ p.car-photo-info-header {
 
 .right-arrow-button:hover {
   color: var(--white);
-  background-color: #2b2b2b;
+  background-color: var(--dark-grey);
   border: 1px solid var(--black);
   box-shadow: 1px 1px 5px var(--social-media-background);
 }
@@ -687,7 +692,7 @@ img.product-rating {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  color: #636363;
+  color: var(--dark-grey);
 }
 
 .products-grid p {
@@ -698,7 +703,7 @@ img.product-rating {
   font-weight: 600;
   font-size: 32px;
   line-height: 38px;
-  color: #363636;
+  color: var(--body-bg);
   padding-top: 20px;
 }
 
@@ -748,7 +753,7 @@ img.product-rating {
   font-size: 18px;
   line-height: 28px;
   text-align: center;
-  color: #cfcece;
+  color: var(--light-grey);
   margin-top: 15px;
   margin-bottom: 10px;
 }
@@ -774,7 +779,7 @@ img.product-rating {
   font-weight: 600;
   font-size: 48px;
   line-height: 56px;
-  color: #2b2b2b;
+  color: var(--body-bg);
   margin-right: 30px;
 }
 
@@ -790,7 +795,7 @@ img.product-rating {
 .short-grey-border {
   width: 2px;
   height: 77px;
-  background: #c4c4c4;
+  background: var(--light-grey);
   margin-top: 30px;
 }
 
@@ -833,7 +838,7 @@ input {
   left: 450px;
   width: 320px;
   height: 56px;
-  background: #ffffff;
+  background: var(--white);
   margin-right: 10px;
   border: 1px solid;
 }
@@ -899,7 +904,7 @@ input {
   display: flex;
   justify-content: space-between;
   margin-left: 200px;
-  border: 1px solid #292929;
+  border: 1px solid var(--dark-grey);
   border-top: none;
   border-left: none;
   border-right: none;
@@ -936,7 +941,7 @@ p.the-mission {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  color: #b9b9b9;
+  color: var(--light-grey);
   margin-top: 20px;
 }
 
@@ -965,7 +970,7 @@ p.the-mission {
 }
 
 .smaller-footer-text {
-  color: #b6b6b6;
+  color: var(--light-grey);
   width: 143px;
   height: 24px;
   font-family: "Open Sans";
@@ -1006,7 +1011,4 @@ a:hover {
   border: 1px solid var(--white);
   color: var(--red);
   box-shadow: 5px 5px 5px var(--social-media-background);
-}
-
-.left-arrow-button:hover {
 }
