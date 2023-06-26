@@ -34,6 +34,11 @@ body {
   margin: 0 auto;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   width: 80%;
   height: 100px;
@@ -233,13 +238,14 @@ p.over-five {
 
 .car-stats-and-video {
   display: flex;
-  width: 650px;
+  width: 62.5%;
   margin-top: 165px;
-  margin-left: 550px;
+  /* margin-left: 494px; */
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 152px;
   align-items: center;
+  align-self: end;
 }
 
 .car-stats {
@@ -262,9 +268,14 @@ p.bottom-car-stats {
   font-style: normal;
   font-weight: 600;
   font-size: 0.7rem;
-  line-height: 22px;
+  line-height: 1.3rem;
   color: var(--light-grey);
   text-transform: uppercase;
+}
+
+.car-stats-img-div {
+  width: 247px;
+  height: 152px;
 }
 
 .car-stats-img {
@@ -281,10 +292,11 @@ p.bottom-car-stats {
 }
 
 .play-symbol-outer-circle {
-  position: absolute;
-  width: 54px;
+  position: relative;
   height: 54px;
-  right: 200px;
+  width: 54px;
+  bottom: 100px;
+  margin: 0 auto;
   background: linear-gradient(
     180deg,
     rgba(254, 5, 30, 0.63) 0%,
@@ -314,76 +326,66 @@ p.bottom-car-stats {
 .about-car-dealer {
   background-color: var(--white);
   display: flex;
-  position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 752px;
-  top: 810px;
-  display: none;
+  justify-content: center;
+  align-items: center;
 }
 
 img.car-dealer-photo {
-  position: relative;
   width: 521px;
   height: 552px;
-  left: 150px;
-  top: 101px;
-  z-index: 100;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(image.png);
 }
 
+.notes-about-car-dealer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
 .p-about-car-dealer {
-  position: relative;
-  width: 600px;
-  height: 56px;
-  left: 205px;
-  top: 141px;
   text-transform: capitalize;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 3rem;
+  line-height: 3.5rem;
   color: var(--dark-grey);
+  padding-left: 30px;
+  padding-bottom: 0;
 }
 
 p.lorem {
-  position: relative;
   width: 541px;
-  height: 168px;
-  left: 205px;
-  top: 171px;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 0.9rem;
+  line-height: 1.75rem;
   color: var(--light-grey);
-}
-
-p.two {
-  top: 81px;
+  padding: 10px;
+  padding-left: 30px;
 }
 
 .services {
-  position: relative;
-  width: 541px;
+  width: 480px;
   height: 178px;
-  left: 205px;
-  top: 65px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .services-grid {
   width: 210px;
   height: 55px;
   display: flex;
-  justify-content: space-evenly;
 }
 
 .services-icon {
-  position: relative;
   width: 50px;
   height: 50px;
   background: var(--lighter-grey);
@@ -391,6 +393,7 @@ p.two {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 10px;
 }
 
 .services-icon img {
@@ -422,16 +425,6 @@ p.service-text {
   font-size: 14px;
   line-height: 20px;
   color: var(--light-grey);
-}
-
-.third-service {
-  position: relative;
-  left: 10px;
-}
-
-.third-icon {
-  position: relative;
-  left: 5px;
 }
 
 .get-all-cars {
