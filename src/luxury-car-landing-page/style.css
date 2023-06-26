@@ -30,7 +30,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  overflow-x: hidden;
   border: 1px solid red;
   margin: 0 auto;
 }
@@ -42,7 +41,6 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  border: 1px solid blue;
 }
 
 .company-logo {
@@ -82,7 +80,6 @@ a.lines {
 
 .luxury-car-display {
   height: 338px;
-  width: 1440px;
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -93,21 +90,19 @@ a.lines {
   text-transform: uppercase;
   color: var(--bg-text-color);
   position: absolute;
-  width: 1424px;
-  height: 338px;
-  left: 8px;
+  left: 100px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 288px;
-  line-height: 338px;
+  font-size: 15.5rem;
+  line-height: 21.1rem;
 }
 
 .luxury-car-display img {
   position: relative;
   width: 822px;
   height: 398px;
-  left: 201px;
+  left: 110px;
   top: 46px;
   z-index: 100;
 }
@@ -121,8 +116,8 @@ a.lines {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 75px;
+  font-size: 4rem;
+  line-height: 4.7rem;
   padding-right: 15px;
   color: var(--white);
   text-transform: capitalize;
@@ -137,19 +132,18 @@ h2.red-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.2rem;
+  line-height: 3.6rem;
   color: var(--light-grey);
-  padding-top: 10px;
 }
 
 .free-shipping p {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
   color: var(--light-grey);
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .landing-page-button {
@@ -158,16 +152,17 @@ h2.red-text {
   background: var(--red);
   border: 1px solid var(--red);
   color: var(--white);
-  margin-top: 35px;
+  margin-top: 50px;
   text-transform: uppercase;
 }
 
 .page-number-design {
-  position: absolute;
+  position: relative;
   width: 28px;
   height: 163px;
-  left: 68px;
-  top: 273px;
+  right: 1265px;
+  top: 93px;
+  z-index: 100;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -181,16 +176,16 @@ h2.red-text {
 p.number-one {
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1rem;
+  line-height: 1.4rem;
   color: var(--white);
 }
 
 p.over-five {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 22px;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
   color: var(--light-grey);
 }
 
@@ -200,7 +195,7 @@ p.over-five {
 
 .straight-line {
   width: 2px;
-  height: 93px;
+  height: 85px;
   left: 81px;
   top: 307px;
   background: var(--dark-grey);
@@ -215,6 +210,7 @@ p.over-five {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .inner-circle {
@@ -237,48 +233,49 @@ p.over-five {
 
 .car-stats-and-video {
   display: flex;
+  width: 650px;
+  margin-top: 165px;
+  margin-left: 550px;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  align-items: center;
 }
 
 .car-stats {
-  position: relative;
-  width: 109px;
+  width: 130px;
   height: 67px;
-  left: 708px;
-  top: 286px;
+  text-align: center;
+  margin: 10px;
 }
 
 p.top-car-stats {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 33px;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
   color: var(--white);
 }
 
 p.bottom-car-stats {
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.7rem;
   line-height: 22px;
   color: var(--light-grey);
+  text-transform: uppercase;
 }
 
 .car-stats-img {
-  position: absolute;
   width: 247px;
   height: 152px;
-  left: 1193px;
-  top: 659px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51));
 }
 
 .short-straight-line {
-  position: relative;
   width: 38px;
   height: 0px;
-  left: 705px;
-  top: 320px;
   border: 1px solid var(--light-grey);
   transform: rotate(90deg);
 }
@@ -287,8 +284,7 @@ p.bottom-car-stats {
   position: absolute;
   width: 54px;
   height: 54px;
-  left: 1290px;
-  top: 708px;
+  right: 200px;
   background: linear-gradient(
     180deg,
     rgba(254, 5, 30, 0.63) 0%,
@@ -322,6 +318,7 @@ p.bottom-car-stats {
   width: 1440px;
   height: 752px;
   top: 810px;
+  display: none;
 }
 
 img.car-dealer-photo {
