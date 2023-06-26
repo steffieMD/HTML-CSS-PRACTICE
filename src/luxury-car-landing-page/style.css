@@ -413,8 +413,8 @@ p.service-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
   color: var(--dark-grey);
   text-align: left;
 }
@@ -422,38 +422,43 @@ p.service-title {
 p.service-text {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
   color: var(--light-grey);
 }
 
 .get-all-cars {
   display: flex;
-  position: relative;
   width: 100%;
-  height: 852px;
-  top: 1056px;
+  height: 752px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid blue;
 }
 
 .second-background-text {
-  top: 70px;
+  top: 1600px;
+  z-index: -20;
 }
 
 .get-all-cars-content {
   width: 80%;
-  height: 70%;
-  position: relative;
+  height: 80%;
   top: 10px;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .featured-cars-heading {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  border: 1px solid hotpink;
 }
 
 .featured-cars-heading h4 {
@@ -462,8 +467,8 @@ p.service-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 3rem;
+  line-height: 3.5rem;
   color: var(--white);
 }
 
@@ -478,15 +483,15 @@ p.service-text {
 
 .car-list-car-photo {
   display: flex;
-  position: relative;
   width: 100%;
-  top: 40px;
+  height: 100%;
+  border: 1px solid rgb(130, 238, 153);
 }
 
 .car-list {
   display: flex;
   flex-direction: column;
-  position: relative;
+  border: 1px solid rgb(37, 25, 37);
 }
 
 .car-list a {
@@ -498,7 +503,7 @@ p.service-text {
   color: var(--light-grey);
   text-transform: capitalize;
   text-decoration: none;
-  padding: 20px 0 20px 0;
+  padding: 15px 0 15px 0;
 }
 
 a.highlighted-car-name {
@@ -508,40 +513,35 @@ a.highlighted-car-name {
 }
 
 .divider-div {
-  position: relative;
   width: 3px;
-  height: 523px;
-  left: 60px;
+  height: 460px;
+  margin-left: 60px;
   background: var(--dark-grey);
 }
 
 .red-straight-line {
-  position: relative;
   width: 3px;
   height: 56px;
   background: var(--red);
 }
 
 .car-photo-info {
-  position: relative;
-  left: 124px;
-  bottom: 20px;
+  margin-left: 50px;
 }
 
 .car-photo-info img {
-  width: 877px;
-  height: 415px;
+  width: 700px;
+  height: 315px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(image.png);
 }
 
 .car-info {
   background: var(--black);
-  position: relative;
-  width: 877px;
+  width: 700px;
   height: 132px;
   color: var(--light-grey);
-  bottom: 10px;
+  margin-bottom: 10px;
 }
 
 p.car-photo-info-header {
