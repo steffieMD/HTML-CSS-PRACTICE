@@ -30,7 +30,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -791,44 +790,45 @@ img.product-rating {
 }
 
 footer {
-  position: absolute;
-  width: 1440px;
-  height: 703px;
-  left: 0px;
-  top: 3890px;
+  width: 1200px;
+  height: 603px;
   background: var(--black);
-  overflow-x: hidden;
-  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sign-up {
-  position: absolute;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
-  bottom: 500px;
+  margin-bottom: 40px;
 }
 
 .sign-up p {
-  width: 985px;
-  height: 56px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
   color: var(--white);
-  position: relative;
-  left: 380px;
+  padding-bottom: 10px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
 
 input {
-  position: relative;
-  left: 450px;
-  width: 320px;
-  height: 56px;
+  width: 280px;
+  height: 40px;
   background: var(--white);
   margin-right: 10px;
   border: 1px solid;
@@ -840,28 +840,30 @@ input {
 
 .sign-up-button {
   width: 142px;
-  height: 56px;
+}
+
+input#sign-up-button.landing-page-button {
+  margin: 0;
+  height: 40px;
 }
 
 .grey-circle {
-  position: relative;
-  padding: 20px 30px;
-  margin: 5px;
+  position: absolute;
   display: inline-block;
-  font-size: 30px;
   width: 280px;
   height: 280px;
-  position: relative;
-  right: 150px;
-  bottom: 150px;
+  z-index: 100;
+  top: 3420px;
+  right: 1150px;
 }
 
 .grey-circle::before {
-  content: "";
+  content: " ";
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  padding: 48px; /* control the border thickness */
+  padding: 48px;
+  /* control the border thickness */
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.32) 0%,
@@ -874,9 +876,9 @@ input {
 }
 
 .second-grey-circle {
-  position: relative;
-  left: 1280px;
-  margin-top: 100px;
+  position: absolute;
+  left: 1170px;
+  top: 4020px;
 }
 
 .second-grey-circle::before {
@@ -889,12 +891,12 @@ input {
 
 .main-footer {
   position: relative;
-  width: 60%;
-  height: 320px;
+  width: 80%;
+  height: 300px;
   margin: 0 auto;
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
-  margin-left: 200px;
   border: 1px solid var(--dark-grey);
   border-top: none;
   border-left: none;
@@ -905,7 +907,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 200px;
+  height: 180px;
 }
 
 .footer-div a {
@@ -919,8 +921,8 @@ a.moste {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 30px;
+  font-size: 2rem;
+  line-height: 1.8rem;
   color: var(--white);
 }
 
@@ -930,22 +932,23 @@ p.the-mission {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: var(--light-grey);
-  margin-top: 20px;
 }
 
 .social-media-logo img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .social-media-logo {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   top: 50px;
-  justify-content: space-between;
+  width: 160px;
 }
 
 .larger-text {
@@ -954,8 +957,8 @@ p.the-mission {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
   color: var(--white);
   margin-bottom: 20px;
 }
@@ -967,23 +970,21 @@ p.the-mission {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
 }
 
 p.copyright {
-  position: relative;
   width: 257px;
   height: 16px;
-  left: 592px;
-  top: 30px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.7rem;
+  line-height: 1rem;
   color: var(--white);
   text-transform: capitalize;
+  margin: 20px;
 }
 
 button:hover {
