@@ -26,6 +26,22 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(
+    var(--body-bg) 0,
+    var(--body-bg) 735px,
+    var(--white) 735px,
+    var(--white) 1487px,
+    var(--body-bg) 1487px,
+    var(--body-bg) 2239px,
+    var(--white) 2239px,
+    var(--white) 2991px,
+    var(--body-bg) 2991px,
+    var(--body-bg) 3317px,
+    var(--white) 3317px,
+    var(--white) 3569px,
+    var(--black) 3569px,
+    var(--black) 4172px
+  );
 }
 
 body {
@@ -109,7 +125,7 @@ a.lines {
   text-transform: uppercase;
   color: var(--bg-text-color);
   position: absolute;
-  left: 100px;
+  left: 20%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -761,7 +777,7 @@ img.product-rating {
 
 .come-join-us img {
   position: relative;
-  width: 100%;
+  width: 150%;
   left: 24%;
 }
 
@@ -773,7 +789,7 @@ img.product-rating {
   align-items: center;
   width: 600px;
   position: relative;
-  right: 49%;
+  right: 59%;
 }
 
 .join-us-header {
