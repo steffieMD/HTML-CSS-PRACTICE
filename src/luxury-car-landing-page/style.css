@@ -45,14 +45,14 @@ html {
 }
 
 body {
-  max-width: 1200px;
+  max-width: 1440px;
   background-color: var(--body-bg);
-  overflow-x: hidden;
   min-width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  margin: auto;
 }
 
 main {
@@ -131,14 +131,13 @@ a.lines {
   font-weight: 700;
   font-size: 15.7rem;
   line-height: 21.1rem;
-  z-index: 20;
+  z-index: 2;
 }
 
 .luxury-car-display img {
   position: relative;
   width: 83.5%;
   max-width: 802px;
-  min-width: none;
   height: 348px;
   left: 70px;
   top: 46px;
@@ -148,6 +147,7 @@ a.lines {
 .free-shipping {
   width: 453px;
   height: 341px;
+  z-index: 10;
 }
 
 .shipping-header h2 {
@@ -371,7 +371,7 @@ p.bottom-car-stats {
 }
 
 img.car-dealer-photo {
-  width: 48%;
+  width: 52%;
   height: 552px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(image.png);
@@ -383,7 +383,7 @@ img.car-dealer-photo {
   justify-content: center;
   align-items: center;
   height: 552px;
-  width: 48%;
+  width: 46%;
 }
 
 .p-about-car-dealer {
@@ -483,7 +483,7 @@ p.service-text {
 
 .second-background-text {
   top: 1600px;
-  z-index: 20;
+  z-index: 10;
 }
 
 .get-all-cars-content {
@@ -500,6 +500,7 @@ p.service-text {
   width: 100%;
   height: 10%;
   justify-content: space-between;
+  z-index: 10;
 }
 
 .featured-cars-heading h4 {
@@ -532,6 +533,7 @@ p.service-text {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  z-index: 10;
 }
 
 .car-list a {
@@ -558,20 +560,23 @@ a.highlighted-car-name {
   margin-left: 60px;
   margin-top: 10px;
   background: var(--dark-grey);
+  z-index: 10;
 }
 
 .red-straight-line {
   width: 3px;
   height: 56px;
   background: var(--red);
+  z-index: 10;
 }
 
 .car-photo-info {
-  margin-left: 50px;
+  margin-left: 10%;
+  z-index: 10;
 }
 
 .car-photo-info img {
-  width: 700px;
+  width: 800px;
   height: 325px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(image.png);
@@ -580,7 +585,7 @@ a.highlighted-car-name {
 
 .car-info {
   background: var(--black);
-  width: 700px;
+  width: 800px;
   height: 132px;
   color: var(--light-grey);
   margin-bottom: 10px;
@@ -767,18 +772,13 @@ img.product-rating {
   color: var(--body-bg);
 }
 
-.come-join-us {
+div.come-join-us {
   width: 100%;
   height: 326px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.come-join-us img {
-  position: relative;
-  width: 150%;
-  left: 24%;
+  background-image: url(assets/png/luxury-car.png);
 }
 
 .join-us-div {
@@ -788,8 +788,6 @@ img.product-rating {
   justify-content: center;
   align-items: center;
   width: 600px;
-  position: relative;
-  right: 59%;
 }
 
 .join-us-header {
