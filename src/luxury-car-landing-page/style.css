@@ -1,0 +1,1096 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600&family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --red: #fe051e;
+  --white: #ffffff;
+  --black: #000000;
+  --social-media-background: #0f1624;
+  --body-bg: #1e1e1e;
+  --bg-text-color: #6d6b6b21;
+  --light-grey: #acacac;
+  --dark-grey: #464445;
+  --lighter-grey: rgba(196, 196, 196, 0.5);
+  --grey: #676767;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  background-color: var(--body-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    var(--body-bg) 0,
+    var(--body-bg) 735px,
+    var(--white) 735px,
+    var(--white) 1487px,
+    var(--body-bg) 1487px,
+    var(--body-bg) 2239px,
+    var(--white) 2239px,
+    var(--white) 2991px,
+    var(--body-bg) 2991px,
+    var(--body-bg) 3317px,
+    var(--white) 3317px,
+    var(--white) 3569px,
+    var(--black) 3569px,
+    var(--black) 4172px
+  );
+}
+
+body {
+  max-width: 1440px;
+  background-color: var(--body-bg);
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+header {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.company-logo {
+  display: flex;
+}
+.company-logo p {
+  color: var(--white);
+  font-family: Poppins;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 3.3rem;
+  letter-spacing: 0em;
+}
+
+p.red-text {
+  color: var(--red);
+}
+
+header p {
+  text-transform: capitalize;
+}
+
+.nav-bar a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+}
+
+a.lines {
+  font-size: 2.5rem;
+}
+
+.luxury-car {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.luxury-car-display {
+  height: 338px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 40px;
+}
+
+.background-text {
+  text-transform: uppercase;
+  color: var(--bg-text-color);
+  position: absolute;
+  left: 6%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.7rem;
+  line-height: 21.1rem;
+  z-index: 2;
+}
+
+.luxury-car-display img {
+  position: relative;
+  width: 83.5%;
+  max-width: 802px;
+  height: 348px;
+  left: 70px;
+  top: 46px;
+  z-index: 100;
+}
+
+.free-shipping {
+  width: 453px;
+  height: 341px;
+  z-index: 10;
+}
+
+.shipping-header h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 4.7rem;
+  padding-right: 15px;
+  color: var(--white);
+  text-transform: capitalize;
+}
+
+h2.red-text {
+  color: var(--red);
+}
+
+.free-shipping h3 {
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.6rem;
+  color: var(--light-grey);
+}
+
+.free-shipping p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  color: var(--light-grey);
+  padding-top: 15px;
+}
+
+.landing-page-button {
+  width: 192px;
+  height: 56px;
+  background: var(--red);
+  border: 1px solid var(--red);
+  color: var(--white);
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.page-number-design {
+  position: relative;
+  width: 28px;
+  height: 163px;
+  right: 120%;
+  top: 93px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-number {
+  display: flex;
+}
+
+p.number-one {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--white);
+}
+
+p.over-five {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  color: var(--light-grey);
+}
+
+.shipping-header {
+  display: flex;
+}
+
+.straight-line {
+  width: 2px;
+  height: 85px;
+  left: 81px;
+  top: 307px;
+  background: var(--dark-grey);
+}
+
+.outer-circle {
+  width: 28px;
+  height: 28px;
+  left: 68px;
+  border: 1px solid var(--dark-grey);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inner-circle {
+  width: 6px;
+  height: 6px;
+  background: var(--dark-grey);
+  border-radius: 50%;
+}
+
+.grey-backlight {
+  position: absolute;
+  width: 644.68px;
+  height: 182.6px;
+  left: 697.98px;
+  top: 461.15px;
+  background: var(--white);
+  filter: blur(150px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.car-stats-and-video {
+  display: flex;
+  width: 62.5%;
+  margin-top: 105px;
+  justify-content: center;
+  align-items: center;
+  height: 152px;
+  align-items: center;
+  align-self: end;
+}
+
+.car-stats {
+  width: 130px;
+  height: 67px;
+  text-align: center;
+  margin: 10px;
+}
+
+p.top-car-stats {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  color: var(--white);
+}
+
+p.bottom-car-stats {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+  color: var(--light-grey);
+  text-transform: uppercase;
+}
+
+.car-stats-img-div {
+  width: 247px;
+  height: 152px;
+}
+
+.car-stats-img {
+  width: 247px;
+  height: 152px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51));
+}
+
+.short-straight-line {
+  width: 38px;
+  height: 0px;
+  border: 1px solid var(--light-grey);
+  transform: rotate(90deg);
+}
+
+.play-symbol-outer-circle {
+  position: relative;
+  height: 54px;
+  width: 54px;
+  bottom: 100px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 5, 30, 0.63) 0%,
+    rgba(254, 5, 30, 0.63) 100%
+  );
+  backdrop-filter: blur(0.5px);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-symbol-outer-circle:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(73, 68, 68, 0.63) 0%,
+    rgba(72, 69, 69, 0.63) 100%
+  );
+}
+
+.play-symbol-outer-circle img {
+  position: relative;
+  width: 12px;
+  height: 15px;
+}
+
+.about-car-dealer-content {
+  background-color: var(--white);
+  display: flex;
+  width: 100%;
+  height: 752px;
+  justify-content: center;
+  align-items: center;
+}
+.about-car-dealer {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.car-dealer-photo {
+  width: 52%;
+  height: 552px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(image.png);
+}
+
+.notes-about-car-dealer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 552px;
+  width: 46%;
+}
+
+.p-about-car-dealer {
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: var(--dark-grey);
+  padding: 10px;
+}
+
+p.lorem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.75rem;
+  color: var(--light-grey);
+  padding: 10px;
+}
+
+.services {
+  width: 100%;
+  height: 178px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.services-grid {
+  width: 210px;
+  height: 55px;
+  display: flex;
+}
+
+.services-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--lighter-grey);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.services-icon img {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.services-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p.service-title {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  color: var(--dark-grey);
+  text-align: left;
+}
+
+p.service-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  color: var(--light-grey);
+}
+
+.get-all-cars-div {
+  width: 100%;
+  height: 752px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-all-cars {
+  display: flex;
+  width: 80%;
+  height: 552px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-background-text {
+  top: 1600px;
+  z-index: 10;
+}
+
+.get-all-cars-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured-cars-heading {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.featured-cars-heading h4 {
+  width: 573px;
+  height: 56px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: var(--white);
+}
+
+.featured-cars-heading button {
+  width: 128px;
+  height: 52px;
+  border: 1px solid var(--red);
+  background: transparent;
+  color: var(--red);
+  text-transform: uppercase;
+}
+
+.car-list-car-photo {
+  display: flex;
+  width: 100%;
+  height: 85%;
+}
+
+.car-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  z-index: 10;
+}
+
+.car-list a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--light-grey);
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 15px 0 15px 0;
+}
+
+a.highlighted-car-name {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: var(--white);
+}
+
+.divider-div {
+  width: 3px;
+  height: 450px;
+  margin-left: 60px;
+  margin-top: 10px;
+  background: var(--dark-grey);
+  z-index: 10;
+}
+
+.red-straight-line {
+  width: 3px;
+  height: 56px;
+  background: var(--red);
+  z-index: 10;
+}
+
+.car-photo-info {
+  margin-left: 10%;
+  z-index: 10;
+}
+
+.car-photo-info img {
+  width: 800px;
+  height: 325px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(image.png);
+  z-index: 100;
+}
+
+.car-info {
+  background: var(--black);
+  width: 800px;
+  height: 132px;
+  color: var(--light-grey);
+  margin-bottom: 10px;
+}
+
+p.car-photo-info-header {
+  width: 359px;
+  height: 28px;
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--white);
+  padding: 30px;
+}
+
+.car-photo-info-bio {
+  width: 500px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  color: var(--grey);
+  padding: 15px;
+  padding-left: 30px;
+}
+
+.right-arrow {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 630px;
+  bottom: 100px;
+  background: var(--red);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-arrow:hover {
+  background: var(--white);
+}
+
+.right-arrow p {
+  color: var(--white);
+}
+
+.right-arrow p:hover {
+  color: var(--red);
+}
+
+.trending-products-div {
+  height: 752px;
+  width: 100%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending-products {
+  display: flex;
+  width: 80%;
+  height: 552px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.trending-products p {
+  text-transform: capitalize;
+  text-align: center;
+  width: 598px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: var(--dark-grey);
+}
+
+.arrow-buttons {
+  margin-top: 30px;
+}
+
+.left-arrow-button {
+  width: 40px;
+  height: 40px;
+  background-color: var(--white);
+  border-radius: 50%;
+  border: 1px solid var(--black);
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+.left-arrow-button:hover {
+  color: var(--black);
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  box-shadow: 1px 1px 5px var(--social-media-background);
+}
+
+.right-arrow-button {
+  width: 40px;
+  height: 40px;
+  background: var(--dark-grey);
+  color: var(--white);
+  border-radius: 50%;
+  border: 1px solid var(--black);
+  font-size: 1.1rem;
+}
+
+.right-arrow-button:hover {
+  color: var(--white);
+  background-color: var(--dark-grey);
+  border: 1px solid var(--black);
+  box-shadow: 1px 1px 5px var(--social-media-background);
+}
+
+.products-grid {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-image-and-name {
+  display: flex;
+  width: 228px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-image-and-rating {
+  display: flex;
+  flex-direction: column;
+}
+
+img.product-image {
+  width: 228px;
+  height: 350px;
+}
+
+img.product-rating {
+  position: relative;
+  width: 116px;
+  height: 20px;
+  bottom: 50px;
+  left: 50px;
+}
+
+.products-grid h5 {
+  text-transform: capitalize;
+  width: 250px;
+  height: 23px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  padding-bottom: 35px;
+  color: var(--dark-grey);
+  text-align: center;
+}
+
+.products-grid p {
+  width: 119px;
+  height: 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--body-bg);
+}
+
+div.come-join-us {
+  width: 100%;
+  height: 326px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/png/luxury-car.png);
+}
+
+.join-us-div {
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.join-us-header {
+  text-transform: capitalize;
+  width: 300px;
+  height: 56px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  color: var(--white);
+}
+
+.join-us-text {
+  width: 572px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--light-grey);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.brand-available-div {
+  width: 100%;
+  height: 252px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.brand-available {
+  display: flex;
+  width: 80%;
+  height: 202px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.brand-available p {
+  text-transform: capitalize;
+  width: 199px;
+  height: 112px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  color: var(--body-bg);
+  margin-right: 30px;
+}
+
+.brands {
+  display: flex;
+}
+
+.brands img {
+  width: 127px;
+  height: 67px;
+  margin: 30px;
+}
+.short-grey-border {
+  width: 2px;
+  height: 77px;
+  background: var(--light-grey);
+  margin-top: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 603px;
+  background: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.sign-up p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  color: var(--white);
+  padding-bottom: 10px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input {
+  width: 280px;
+  height: 40px;
+  background: var(--white);
+  margin-right: 10px;
+  border: 1px solid;
+}
+
+#sign-up-form {
+  padding-left: 20px;
+}
+
+.sign-up-button {
+  width: 142px;
+}
+
+input#sign-up-button.landing-page-button {
+  margin: 0;
+  height: 40px;
+}
+
+.grey-circle {
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+  z-index: 100;
+  top: 3420px;
+  right: 1150px;
+}
+
+.grey-circle::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  padding: 48px;
+  /* control the border thickness */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.32) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.second-grey-circle {
+  position: absolute;
+  left: 1170px;
+  top: 4020px;
+}
+
+.second-grey-circle::before {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.32) 100%
+  );
+}
+
+.main-footer {
+  position: relative;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--dark-grey);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+}
+
+.footer-div a {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+a.moste {
+  width: 112px;
+  height: 54px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  color: var(--white);
+}
+
+p.the-mission {
+  width: 250px;
+  height: 84px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--light-grey);
+}
+
+.social-media-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-media-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  width: 160px;
+}
+
+.larger-text {
+  width: 111px;
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.smaller-footer-text {
+  color: var(--light-grey);
+  width: 143px;
+  height: 24px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+p.copyright {
+  width: 257px;
+  height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  color: var(--white);
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--red);
+  box-shadow: 5px 5px 5px var(--black);
+}
+
+a:hover {
+  color: var(--red);
+}
+
+#sign-up-button:hover {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--red);
+  box-shadow: 5px 5px 5px var(--social-media-background);
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1280px) {
+  html {
+    font-size: 16px;
+  }
+}
